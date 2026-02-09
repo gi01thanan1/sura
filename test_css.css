@@ -1,0 +1,148 @@
+﻿body {
+    
+}
+
+
+
+.st-key-play_button button  {
+    background-color:#d8f4e0;
+    font-size: 30px;
+    width: 200px;
+    font-weight: bold;
+    /* margin-left: 100px; */
+}
+.st-key-no_button button  {
+    background-color: rgb(245, 211, 213);
+    font-size: 30px;
+    width: 100x;
+    font-weight: bold;
+    
+
+}
+.st-key-add_button button {
+    /* background-color:#38cb7b; */
+    /* background-color:#91f0aa; */
+    background-color:#d8f4e0;
+    font-size: 40px;
+    width: 100px;
+    font-weight: bold;
+    
+
+    
+}
+
+/* Text input with custom font and color */
+.st-key-widget input {
+    border: 5px solid lightgray;
+    border-radius: 8px;
+    font-size: 30px;
+    /* background-color: rgb(32, 26, 214); */
+    background-color: lightgray;
+    
+}
+
+/* Styled markdown */
+.custom-markdown {
+    font-family:  sans-serif;
+    /* color: #DA70D6; */
+    color:rgb(25, 90, 146);
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    align-content: center;
+    direction: rtl;
+    
+}
+
+.custom-help {
+    font-family:  sans-serif;
+    /* color: #DA70D6; */
+    color:rgb(146, 25, 102);
+    font-size: 12px;
+    text-align: center;
+    
+    
+    direction: rtl;
+}
+
+.user-word {
+    font-family:  sans-serif;
+    color:#5c5aee;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    align-content: center;
+    direction: rtl;
+    
+}
+
+.big-title {
+    font-family:  sans-serif;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+
+.help-icon 
+                {
+                
+                position: right; /* Needed to position the help text */
+               
+                /* border-bottom: 1px dotted #000;  Optional: adds a visual cue to hover */
+                cursor: help; /* Changes cursor to a question mark icon */
+                text-align: right;
+                }
+.help-text {
+                visibility: hidden; /* Hidden by default */
+                opacity: 0; /* Hidden by default */
+                width: 500px; /* Controls the width of the multi-line text */
+                height: 200px;
+                background-color: white;
+                color: black;
+                text-align: center;
+                padding: 10px;
+                border-radius: 6px;
+                position: absolute; /* Positions the help text relative to its container */
+                right: -50px;
+                bottom: -50px;
+                direction:rtl;
+                border: 3px solid red; /* Width, Style, Color */
+                padding: 10px;        /* Adds space between the text and the border */
+                display: inline-block;
+                
+                
+                          
+                
+                }
+ .help-icon:hover .help-text {
+                visibility: visible;
+                opacity: 1;
+                }
+
+
+.body-text {
+                     font-family:  sans-serif;
+                    /* color: #DA70D6; */
+                    color:rgb(25, 90, 146);
+                    font-size: 30px;
+                    text-align: center;
+                    font-weight: bold;
+                    align-content: center;
+                    direction: rtl;
+                    
+                }
+
+
+/*div.st-emotion-cache-1rsyhoq {
+    font-size: 40px;
+    
+    
+} */
+
+
+/*<div data-testid="stMarkdownContainer" class="st-emotion-cache-1rsyhoq e1nzilvr5"><p><code>7</code></p></div>*/
+
+
