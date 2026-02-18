@@ -135,7 +135,9 @@
                     
                 }
 
-
+[data-testid="InputInstructions"] {
+    display: none;
+}
 /*div.st-emotion-cache-1rsyhoq {
     font-size: 40px;
     
