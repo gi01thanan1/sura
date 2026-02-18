@@ -139,7 +139,7 @@ def word(data):
     st.markdown(f'<p class="custom-markdown">{nabza}</p>', unsafe_allow_html=True)
     #st.markdown(f'<p class="custom-markdown">استنتج اسم السورة بالحروف , السورة مكونة من : {n} حرف</p>', unsafe_allow_html=True,help="ادخل حرفا واحدا ثم اضغط على أضف ،إذا كا الحرف من ضمن حروف السورة سيظهر الحرف فى مكانه وأذا لم يكن من ضمن حروف السورة لن يظهر ، استمر فى ادخال الحروف والضغط على أضف حتى يكتمل اسم السورة ،اذا كان حرف الألف بالهمزة فيجب ادخاله بالهمزة الصحيحة أ أو إ أو آ ، يساعدك على الاستنتاج عدد حروف السورة والنبذة المختصرة")
     
-    st.text_input("ادخل حرف واحد :", key="widget" , on_change=submit)
+    st.text_input("ادخل حرف واحد :", key="widget" , on_change=submit,max_chars=1)
     
     if 'my_lst' not in st.session_state:
         st.session_state['my_lst'] = []
